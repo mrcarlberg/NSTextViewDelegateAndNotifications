@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B4CF51D1FEBDC5C00182CA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CF51C1FEBDC5C00182CA9 /* AppDelegate.m */; };
+		5B4CF51F1FEBDC5C00182CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CF51E1FEBDC5C00182CA9 /* Assets.xcassets */; };
+		5B4CF5221FEBDC5C00182CA9 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5B4CF5201FEBDC5C00182CA9 /* MainMenu.xib */; };
+		5B4CF5251FEBDC5C00182CA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CF5241FEBDC5C00182CA9 /* main.m */; };
+		5B4CF5301FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CF52F1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.m */; };
+		5B4CF53B1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CF53A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.m */; };
+		5B4CF54A1FEBEC0200182CA9 /* NotificationStatistics.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B4CF5491FEBEC0200182CA9 /* NotificationStatistics.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B4CF52C1FEBDC5C00182CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4CF5101FEBDC5C00182CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4CF5171FEBDC5C00182CA9;
+			remoteInfo = NSTextViewDelegateAndNotifications;
+		};
+		5B4CF5371FEBDC5C00182CA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B4CF5101FEBDC5C00182CA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B4CF5171FEBDC5C00182CA9;
+			remoteInfo = NSTextViewDelegateAndNotifications;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4CF5181FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NSTextViewDelegateAndNotifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4CF51B1FEBDC5C00182CA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5B4CF51C1FEBDC5C00182CA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5B4CF51E1FEBDC5C00182CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B4CF5211FEBDC5C00182CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5B4CF5231FEBDC5C00182CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4CF5241FEBDC5C00182CA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5B4CF5261FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NSTextViewDelegateAndNotifications.entitlements; sourceTree = "<group>"; };
+		5B4CF52B1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTextViewDelegateAndNotificationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4CF52F1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextViewDelegateAndNotificationsTests.m; sourceTree = "<group>"; };
+		5B4CF5311FEBDC5C00182CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4CF5361FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSTextViewDelegateAndNotificationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B4CF53A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSTextViewDelegateAndNotificationsUITests.m; sourceTree = "<group>"; };
+		5B4CF53C1FEBDC5C00182CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B4CF5481FEBEC0200182CA9 /* NotificationStatistics.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationStatistics.h; sourceTree = "<group>"; };
+		5B4CF5491FEBEC0200182CA9 /* NotificationStatistics.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationStatistics.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B4CF5151FEBDC5C00182CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CF5281FEBDC5C00182CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CF5331FEBDC5C00182CA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B4CF50F1FEBDC5C00182CA9 = {
+			isa = PBXGroup;
+			children = (
+				5B4CF51A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications */,
+				5B4CF52E1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests */,
+				5B4CF5391FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests */,
+				5B4CF5191FEBDC5C00182CA9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5B4CF5191FEBDC5C00182CA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CF5181FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications.app */,
+				5B4CF52B1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.xctest */,
+				5B4CF5361FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B4CF51A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CF51B1FEBDC5C00182CA9 /* AppDelegate.h */,
+				5B4CF51C1FEBDC5C00182CA9 /* AppDelegate.m */,
+				5B4CF5481FEBEC0200182CA9 /* NotificationStatistics.h */,
+				5B4CF5491FEBEC0200182CA9 /* NotificationStatistics.m */,
+				5B4CF51E1FEBDC5C00182CA9 /* Assets.xcassets */,
+				5B4CF5201FEBDC5C00182CA9 /* MainMenu.xib */,
+				5B4CF5231FEBDC5C00182CA9 /* Info.plist */,
+				5B4CF5241FEBDC5C00182CA9 /* main.m */,
+				5B4CF5261FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications.entitlements */,
+			);
+			path = NSTextViewDelegateAndNotifications;
+			sourceTree = "<group>";
+		};
+		5B4CF52E1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CF52F1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.m */,
+				5B4CF5311FEBDC5C00182CA9 /* Info.plist */,
+			);
+			path = NSTextViewDelegateAndNotificationsTests;
+			sourceTree = "<group>";
+		};
+		5B4CF5391FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5B4CF53A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.m */,
+				5B4CF53C1FEBDC5C00182CA9 /* Info.plist */,
+			);
+			path = NSTextViewDelegateAndNotificationsUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B4CF5171FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4CF53F1FEBDC5C00182CA9 /* Build configuration list for PBXNativeTarget "NSTextViewDelegateAndNotifications" */;
+			buildPhases = (
+				5B4CF5141FEBDC5C00182CA9 /* Sources */,
+				5B4CF5151FEBDC5C00182CA9 /* Frameworks */,
+				5B4CF5161FEBDC5C00182CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NSTextViewDelegateAndNotifications;
+			productName = NSTextViewDelegateAndNotifications;
+			productReference = 5B4CF5181FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5B4CF52A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4CF5421FEBDC5C00182CA9 /* Build configuration list for PBXNativeTarget "NSTextViewDelegateAndNotificationsTests" */;
+			buildPhases = (
+				5B4CF5271FEBDC5C00182CA9 /* Sources */,
+				5B4CF5281FEBDC5C00182CA9 /* Frameworks */,
+				5B4CF5291FEBDC5C00182CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4CF52D1FEBDC5C00182CA9 /* PBXTargetDependency */,
+			);
+			name = NSTextViewDelegateAndNotificationsTests;
+			productName = NSTextViewDelegateAndNotificationsTests;
+			productReference = 5B4CF52B1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5B4CF5351FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B4CF5451FEBDC5C00182CA9 /* Build configuration list for PBXNativeTarget "NSTextViewDelegateAndNotificationsUITests" */;
+			buildPhases = (
+				5B4CF5321FEBDC5C00182CA9 /* Sources */,
+				5B4CF5331FEBDC5C00182CA9 /* Frameworks */,
+				5B4CF5341FEBDC5C00182CA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B4CF5381FEBDC5C00182CA9 /* PBXTargetDependency */,
+			);
+			name = NSTextViewDelegateAndNotificationsUITests;
+			productName = NSTextViewDelegateAndNotificationsUITests;
+			productReference = 5B4CF5361FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B4CF5101FEBDC5C00182CA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Oops AB";
+				TargetAttributes = {
+					5B4CF5171FEBDC5C00182CA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5B4CF52A1FEBDC5C00182CA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B4CF5171FEBDC5C00182CA9;
+					};
+					5B4CF5351FEBDC5C00182CA9 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5B4CF5171FEBDC5C00182CA9;
+					};
+				};
+			};
+			buildConfigurationList = 5B4CF5131FEBDC5C00182CA9 /* Build configuration list for PBXProject "NSTextViewDelegateAndNotifications" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B4CF50F1FEBDC5C00182CA9;
+			productRefGroup = 5B4CF5191FEBDC5C00182CA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B4CF5171FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications */,
+				5B4CF52A1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests */,
+				5B4CF5351FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B4CF5161FEBDC5C00182CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CF51F1FEBDC5C00182CA9 /* Assets.xcassets in Resources */,
+				5B4CF5221FEBDC5C00182CA9 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CF5291FEBDC5C00182CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CF5341FEBDC5C00182CA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B4CF5141FEBDC5C00182CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CF54A1FEBEC0200182CA9 /* NotificationStatistics.m in Sources */,
+				5B4CF5251FEBDC5C00182CA9 /* main.m in Sources */,
+				5B4CF51D1FEBDC5C00182CA9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CF5271FEBDC5C00182CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CF5301FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B4CF5321FEBDC5C00182CA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4CF53B1FEBDC5C00182CA9 /* NSTextViewDelegateAndNotificationsUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B4CF52D1FEBDC5C00182CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4CF5171FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications */;
+			targetProxy = 5B4CF52C1FEBDC5C00182CA9 /* PBXContainerItemProxy */;
+		};
+		5B4CF5381FEBDC5C00182CA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B4CF5171FEBDC5C00182CA9 /* NSTextViewDelegateAndNotifications */;
+			targetProxy = 5B4CF5371FEBDC5C00182CA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B4CF5201FEBDC5C00182CA9 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B4CF5211FEBDC5C00182CA9 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B4CF53D1FEBDC5C00182CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5B4CF53E1FEBDC5C00182CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5B4CF5401FEBDC5C00182CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTextViewDelegateAndNotifications/NSTextViewDelegateAndNotifications.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NSTextViewDelegateAndNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oops.NSTextViewDelegateAndNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5B4CF5411FEBDC5C00182CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = NSTextViewDelegateAndNotifications/NSTextViewDelegateAndNotifications.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = NSTextViewDelegateAndNotifications/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oops.NSTextViewDelegateAndNotifications;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5B4CF5431FEBDC5C00182CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GM4KTJAK98;
+				INFOPLIST_FILE = NSTextViewDelegateAndNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oops.NSTextViewDelegateAndNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTextViewDelegateAndNotifications.app/Contents/MacOS/NSTextViewDelegateAndNotifications";
+			};
+			name = Debug;
+		};
+		5B4CF5441FEBDC5C00182CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GM4KTJAK98;
+				INFOPLIST_FILE = NSTextViewDelegateAndNotificationsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oops.NSTextViewDelegateAndNotificationsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NSTextViewDelegateAndNotifications.app/Contents/MacOS/NSTextViewDelegateAndNotifications";
+			};
+			name = Release;
+		};
+		5B4CF5461FEBDC5C00182CA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GM4KTJAK98;
+				INFOPLIST_FILE = NSTextViewDelegateAndNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oops.NSTextViewDelegateAndNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSTextViewDelegateAndNotifications;
+			};
+			name = Debug;
+		};
+		5B4CF5471FEBDC5C00182CA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = GM4KTJAK98;
+				INFOPLIST_FILE = NSTextViewDelegateAndNotificationsUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.oops.NSTextViewDelegateAndNotificationsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NSTextViewDelegateAndNotifications;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B4CF5131FEBDC5C00182CA9 /* Build configuration list for PBXProject "NSTextViewDelegateAndNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CF53D1FEBDC5C00182CA9 /* Debug */,
+				5B4CF53E1FEBDC5C00182CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4CF53F1FEBDC5C00182CA9 /* Build configuration list for PBXNativeTarget "NSTextViewDelegateAndNotifications" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CF5401FEBDC5C00182CA9 /* Debug */,
+				5B4CF5411FEBDC5C00182CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4CF5421FEBDC5C00182CA9 /* Build configuration list for PBXNativeTarget "NSTextViewDelegateAndNotificationsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CF5431FEBDC5C00182CA9 /* Debug */,
+				5B4CF5441FEBDC5C00182CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B4CF5451FEBDC5C00182CA9 /* Build configuration list for PBXNativeTarget "NSTextViewDelegateAndNotificationsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B4CF5461FEBDC5C00182CA9 /* Debug */,
+				5B4CF5471FEBDC5C00182CA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B4CF5101FEBDC5C00182CA9 /* Project object */;
+}
