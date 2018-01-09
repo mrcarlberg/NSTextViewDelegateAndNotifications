@@ -700,7 +700,7 @@
                             <rect key="frame" x="1" y="1" width="218" height="422"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             <subviews>
-                                <textView ambiguous="YES" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" continuousSpellChecking="YES" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" spellingCorrection="YES" smartInsertDelete="YES" id="XYg-2l-o8c">
+                                <textView ambiguous="YES" importsGraphics="NO" verticallyResizable="YES" usesFontPanel="YES" findStyle="panel" allowsUndo="YES" usesRuler="YES" allowsNonContiguousLayout="YES" quoteSubstitution="YES" dashSubstitution="YES" smartInsertDelete="YES" id="XYg-2l-o8c">
                                     <rect key="frame" x="0.0" y="0.0" width="218" height="422"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -881,7 +881,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <textFieldCell key="cell" allowsUndo="NO" sendsActionOnEndEditing="YES" id="85a-tu-hCf">
                             <font key="font" metaFont="system"/>
-                            <string key="title">This test application will track delegate methods and notification messages from the CPTextView to the left below.
+                            <string key="title">This test application will track delegate methods and notification messages from the NSTextView to the left below.
  
 The Call order column tells in which order they are called. It is an increasing global number for each call to a delegate method or notification message.
 The Number of calls column show how many times this method or message has been sent.</string>
